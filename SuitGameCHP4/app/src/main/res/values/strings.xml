@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuitGameAndroid</string>
+    <string name="txt_vs">VS</string>
+    <string name="txt_p1win">P1 WINS</string>
+    <string name="txt_p2win">P2 WINS</string>
+    <string name="txt_draw">DRAW</string>
+</resources>
