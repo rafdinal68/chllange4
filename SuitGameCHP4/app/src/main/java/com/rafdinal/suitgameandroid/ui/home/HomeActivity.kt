@@ -53,6 +53,7 @@ class HomeActivity : AppCompatActivity() {
         Log.d("player", "setPlayerMovement: " + playerSide)
         Log.d("suit_character", "setPlayerMovement: " + SuitCharacter.values()[suitCharacter])
 
+        // untuk penggunaan if jika banyak bisa ganti dengan when ya 
         if (playerSide == PlayerSide.PLAYER1 && suitCharacter == SuitCharacter.ROCK.ordinal) {
             binding.flBtnLeftBatu.setBackgroundColor(
                 ContextCompat.getColor(
